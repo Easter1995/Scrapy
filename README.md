@@ -2,6 +2,7 @@
 
 # 项目结构
 
+```
 ├── WebScraper
 │   ├── \__init\_\_.py
 │   ├── items.py 
@@ -16,6 +17,9 @@
 ├── main.cfg
 ├── NewHouse.json
 └── SecondHandHouse.json
+```
+
+
 
 # 项目说明
 
