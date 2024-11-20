@@ -4,13 +4,13 @@
 
 ```
 ├── WebScraper
-│   ├── \__init\_\_.py
+│   ├── __init__.py
 │   ├── items.py 
 │   ├── middlewares.py 
 │   ├── pipelines.py
 │   ├── settings.py 
 │   └── spiders
-│       ├── \_\_init\_\_.py
+│       ├── __init__.py
 │       ├── new.py
 │       └── second.py
 ├── scrapy.cfg
