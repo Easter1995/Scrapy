@@ -25,7 +25,7 @@ class NewSpider(scrapy.Spider):
             region3 = item.xpath('./div/div[2]/a/text()').get()
             location = f"{region1} / {region2} / {region3}"
             house['location'] = location
-            house['type'] = item.xpath('./div/div[1]/span[2]/text()').get()
+            house['type'] = item.xpath('./div/div[1]/span[1]/text()').get()
             houseTypes = item.xpath('./div/a/span')
             houseType = ''
             for type in houseTypes:
