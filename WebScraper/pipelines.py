@@ -8,7 +8,7 @@ class NewHousePipeline:
     def open_spider(self, spider):
         # 检查爬虫名称是否匹配
         if spider.name == 'new':
-            self.file = codecs.open('NewHouse.json', 'w+', encoding='UTF-8')
+            self.file = codecs.open('original_data/NewHouse.json', 'w+', encoding='UTF-8')
             self.file.write('[\n')
 
     def process_item(self, item, spider):
@@ -31,7 +31,7 @@ class SecondHandHousePipeline:
 
     def open_spider(self, spider):
         if spider.name == 'second':
-            self.file = codecs.open('SecondHandHouse.json', 'w+', encoding='UTF-8')
+            self.file = codecs.open('original_data/SecondHandHouse.json', 'w+', encoding='UTF-8')
             self.file.write('[\n')
 
     def process_item(self, item, spider):

@@ -5,6 +5,6 @@ from scrapy.utils.project import get_project_settings
 settings = get_project_settings()
 crawler = CrawlerProcess(settings)
 crawler.crawl('new')
-# crawler.crawl('second')
+crawler.crawl('second')
 
 crawler.start()

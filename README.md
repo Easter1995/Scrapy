@@ -1,6 +1,4 @@
-大三上python作业1，使用scrapy+selenium爬取链家新房和二手房信息
-
-# 项目结构
+**项目结构：**
 
 ```
 ├── WebScraper
@@ -19,9 +17,7 @@
 └── SecondHandHouse.json
 ```
 
-
-
-# 项目说明
+**项目说明:**
 
 - **settings.py**
 
@@ -54,3 +50,5 @@
 - **SecondHandHouse.json**
 
   存储从二手房页面爬取的数据。
+  
+- 反爬：selenium作为中间件+添加请求Header
