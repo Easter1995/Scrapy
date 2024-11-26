@@ -1,6 +1,5 @@
 import pandas as pd
 import re
-import json
 
 # 返回小数平均值
 def get_avg_float(str):

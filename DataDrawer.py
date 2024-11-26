@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.lines import Line2D
-import matplotlib.font_manager as fm
 
 # 设置字体为黑体(SimHei)
 plt.rcParams['font.sans-serif'] = ['SimHei']
