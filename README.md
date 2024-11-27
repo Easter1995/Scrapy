@@ -13,8 +13,9 @@
 │       └── second.py
 ├── scrapy.cfg
 ├── main.cfg
-├── NewHouse.json
-└── SecondHandHouse.json
+└── original_data
+	├── NewHouse.json
+	└── SecondHandHouse.json
 ```
 
 **项目说明:**
@@ -41,14 +42,10 @@
 
 - **new.py和second.py**
 
-  定义了`NewSpider`类和`SecondSpider`，包括动态生成urls和用xpath来抓取特定数据的逻辑。
+  定义了`NewSpider`类和`SecondSpider`，包括动态生成urls和用xpath来抓取特定数据的逻辑，以及二手房的部分定义了cookie。
 
-- **NewHouse.json**
+- **NewHouse.json和SecondHandHouse.json**
 
-  存储从新房页面爬取的数据。
+  存储从新房页面爬取的数据；存储从二手房页面爬取的数据。
 
-- **SecondHandHouse.json**
-
-  存储从二手房页面爬取的数据。
-  
-- 反爬：selenium作为中间件+添加请求Header
+- 反爬：selenium作为中间件+添加请求Header+添加cookie
